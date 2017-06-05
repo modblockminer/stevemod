@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "stevemod:blockoakchair" },
+        "facing=east": { "model": "stevemod:blockoakchair", "y": 90 },
+        "facing=south": { "model": "stevemod:blockoakchair", "y": 180 },
+        "facing=west": { "model": "stevemod:blockoakchair", "y": 270 }
+    }
+}

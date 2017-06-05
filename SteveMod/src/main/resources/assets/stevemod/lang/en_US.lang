@@ -1,0 +1,63 @@
+//Items
+item.treesap.name=Tree Sap (C)
+item.grassseedoil.name=Grass Seed Oil
+item.twine.name=Twine (C)
+item.bowstring.name=Bow String
+item.pileofsand.name=Pile Of Sand
+item.parchment.name=Parchment
+item.sandpaper.name=SandPaper
+item.woodblock.name=Block of Wood (C)
+item.woodhandle.name=Wood Handle
+item.woodhilt.name=Wood Hilt
+item.woodchips.name=Wood Chips
+item.woodenclub.name=Wooden Club
+item.woodmallet.name=Wood Mallet (C)
+item.woodentoken.name=Wooden Master Token
+item.stonerock.name=Stone Rock (C)
+item.sharprock.name=Sharp Rock
+item.stonehammer.name=Stone Mallet (C)
+item.rubies.name=Rubies
+
+item.moldaxe.name=Axe Mold
+item.moldpickaxe.name=PickAxe Mold
+item.moldshovel.name=Shovel Mold
+item.moldhoe.name=Hoe Mold
+item.moldsword.name=Sword Mold
+item.moldbow.name=Bow Mold
+item.moldbattleaxe.name=BattleAxe Mold
+item.moldmace.name=Mace Mold
+
+//Tools
+item.woodaxe.name=Wood Axe
+item.woodpickaxe.name=Wood Pick Axe
+item.woodshovel.name=Wood Shovel
+item.woodhoe.name=Wood Hoe
+
+//Weapons
+item.woodsword.name=Wood Sword
+item.woodbow.name=Wood Bow
+item.woodbattleaxe.name=Wood BattleAxe
+item.woodmace.name=Wood Mace
+
+item.rubysword.name=Ruby Sword
+item.rubybow.name=Ruby Bow
+item.rubybattleaxe.name=Ruby BattleAxe
+item.rubymace.name=Ruby Mace
+
+//Tokens
+item.woodmastertoken.name=Wood Master Craftsman Token
+item.woodtooltoken.name=Wood Tool Craftsman Token
+item.woodweapontoken.name=Wood Weapon Craftsman Token
+item.woodarmortoken.name=Wood Armor Craftsman Token
+item.woodmisctoken.name=Wood Misc Craftsman Token
+
+//Blocks
+tile.rubyblock.name=Ruby Ore
+tile.oakchair.name=Oak Chair
+
+//Creative Tab
+itemGroup.TabItems=Mod Items
+itemGroup.TabBlocks=Mod Blocks
+itemGroup.TabMisc=Mod Misc
+itemGroup.TabTools=Mod Tools
+itemGroup.TabWeapons=Mod Weapons
