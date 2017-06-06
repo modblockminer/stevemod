@@ -91,6 +91,7 @@ public class Main {
 		proxy.init();
 		GameRegistry.registerWorldGenerator(new OreGen(), 0);
 		ModCrafting.register();
+		ModCrafting.removerecipes();
 	}
 	
 	@EventHandler

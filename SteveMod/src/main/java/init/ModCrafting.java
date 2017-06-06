@@ -1,5 +1,7 @@
 package init;
 
+import java.util.Iterator;
+
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -8,10 +10,34 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemBlockSpecial;
 import net.minecraft.item.ItemBow;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.CraftingManager;
+import net.minecraft.item.crafting.IRecipe;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.OreDictionary;
 
 public class ModCrafting {
+	
+	public static void removerecipes() {
+		Iterator<IRecipe> remover = CraftingManager.getInstance().getRecipeList().iterator();
+		while(remover.hasNext()){
+			ItemStack itemstack = remover.next().getRecipeOutput();
+			if(itemstack != null && itemstack.getItem() == Items.WOODEN_AXE){
+				remover.remove();
+			}
+			else if (itemstack != null && itemstack.getItem() == Items.WOODEN_HOE){
+				remover.remove();
+			}
+			else if (itemstack != null && itemstack.getItem() == Items.WOODEN_PICKAXE){
+				remover.remove();
+			}
+			else if (itemstack != null && itemstack.getItem() == Items.WOODEN_SHOVEL){
+				remover.remove();
+			}
+			else if (itemstack != null && itemstack.getItem() == Items.WOODEN_SWORD){
+				remover.remove();
+			}
+		}
+	}
 
 	public static void register() {
 		
